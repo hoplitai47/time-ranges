@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group 'org.tss'
+version '0.1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+wrapper {
+    gradleVersion = "6.9.1"
+    distributionType = Wrapper.DistributionType.ALL
+}
+
+dependencies {
+    testImplementation 'junit:junit:4.13.2'
+}
